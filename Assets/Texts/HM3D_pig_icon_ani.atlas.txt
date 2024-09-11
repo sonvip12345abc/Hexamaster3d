@@ -1,0 +1,5 @@
+HM3D_pig_icon_ani.png
+size:128,128
+filter:Linear,Linear
+pig
+bounds:2,2,99,97

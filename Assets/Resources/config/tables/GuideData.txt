@@ -1,0 +1,7 @@
+#唯一id,关卡id -1 不依赖,依赖id,说明【方便查看】,是否隐藏手指（说明引导用）,手指动画,对话,固定位置,相对y位置 大雨0|小于0,手指偏移
+%id,level_id,depend_id,name,hide_hand,hand_anim,message,message_position,message_y_offset,hand_offset
+$[id:unique][id:type:int],[level_id:type:int],[depend_id:type:int],[name:type:string],[hide_hand:type:int],[hand_anim:type:string],[message:type:string],[message_position:type:string],[message_y_offset:type:string],[hand_offset:type:string]
+101,-1,,邮册入口按钮点击,0,finger-dir2,Language946,0|-220|0,,0|0|0
+102,-1,101,单个邮册点击,0,,Language947,,-220|400,0|0|0
+103,-1,102,单个邮票点击,0,,Language948,,-250|400,0|0|0
+104,-1,103,奖励提示,1,,Language949,0|220|0,,0|0|0

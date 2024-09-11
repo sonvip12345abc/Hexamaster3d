@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: f9d275c471d240739db901e80eb1597e
+timeCreated: 1710840910
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: "SourceHanSansK-Heavy"
+  fontNames:
+  - Source Han Sans Heavy
+  - Baloo Bhaijaan
+  fallbackFontReferences: []
+  customCharacters:
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData:
+  assetBundleName: 
+  assetBundleVariant: 

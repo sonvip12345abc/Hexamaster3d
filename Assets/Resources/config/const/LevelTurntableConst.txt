@@ -1,0 +1,5 @@
+TurntableMaxUseTimes,2,int,大转盘每次刷新后最多使用多少次
+TurntableFreeTimesOnce,1,int,大转盘每次免费使用多少次
+TurntableADTimesOnce,-1,int,大转盘每次可以看广告多少次
+TurntableADTimesOneDay,-1,int,大转盘每日可以看广告多少次
+TurntableFixId,6,int,固定开启转盘配置阶段id

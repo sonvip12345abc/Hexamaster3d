@@ -1,0 +1,8 @@
+OpenDayOfWeeks,0|1|2|3|4|5|6,List<int>,指定单周内哪几天开放活动（0是周天）
+StartTimeOfDay,18,int,单日内开启时间节点(小时)
+Duration,6,int,单次活动时长(小时)（StartTimeOfDay + Duration  <= 24）
+UnlockLevel,13,int,解锁关卡等级
+LoopOrder,1,List<int>,循环顺序（1：飞行棋活动）
+IsOpenFlyingChessActivity,1,int,是否开启飞行棋活动（0：关闭、1：开启）
+RewardEnergyTime,600,int,奖励的无限体力时间
+IsActivityVictoryBannerJumpHomeLookAd,0,int,从活动胜利Banner跳转回主界面是否看插频

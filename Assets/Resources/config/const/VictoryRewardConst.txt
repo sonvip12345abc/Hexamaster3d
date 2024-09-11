@@ -1,0 +1,2 @@
+Switch,0,int,通关胜利获取奖励开关1=开
+AdFreeGoldNumber,2|5,List<int>,通关获取随机金币数量

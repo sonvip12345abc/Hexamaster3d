@@ -1,0 +1,17 @@
+﻿#背景,,,,,,
+#id,排序,解锁关卡,解锁条件,是否默认,配置,备注
+%id,sort_index,unlock_level,unlock_prop,default,path,notes
+$[id:unique][id:type:int],[sort_index:type:int],[unlock_level:type:int],[unlock_prop:type:Dictionary<int&int>],[default:type:int],[path:type:string],[notes:type:string]
+1,1,0,,1,Background/GameBg_100,原100背景
+2,2,0,,0,Background/background_2,黑色
+3,3,0,1:1,0,Background/background_9,恋爱粉
+4,4,0,1:1,0,Background/background_8,深蓝色
+5,5,8,,0,Background/background_1_a,灰色中间亮
+6,6,18,1:1,0,Background/background_13,沙漠黄
+7,7,28,1:1,0,Background/background_5,淡绿色
+8,8,48,1:1,0,Background/background_12,河谷蓝
+9,9,68,1:1,0,Background/background_7,淡黄色
+10,10,88,1:1,0,Background/background_10,北极光
+11,11,108,1:1,0,Background/background_6,淡蓝色
+12,12,158,1:1,0,Background/background_14,星空绿
+13,13,208,1:1,0,Background/background_11,深海

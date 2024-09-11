@@ -1,0 +1,23 @@
+GroupPercentageMin,0.5,float,最小组数百分比
+RandomLevelGroupPercentageMax,0.80,float,随机关卡随机组数最大值
+RandomLevelGroupPercentageMin,0.60,float,随机关卡随机组数最小值
+RandomLevelTimePerGroup,14,float,随机关卡每组时间
+PayingUsersAddGroupPercentageMax,0.05,float,付费用户增加图组最大百分比
+PayingUsersAddGroupPercentageMin,0.01,float,付费用户增加图组最小百分比
+PayingUsersEasyLevelCount,2,int,付费用户简单关卡数
+PayingUsersEasyLevelGroups,21|31|32,List<int>,付费用户简单关卡池
+PayingUsersEasyLevelMinLevel,21,int,付费用户简单关卡最小启用关卡
+PayingUsersDifficultyReduce,4,int,付费用户付费行为后动态难度削减量
+BuyNoAdsAddGroupPercentageMax,0.05,float,购买去广告后，添加图组的最大百分比
+BuyNoAdsAddGroupPercentageMin,0.01,float,购买去广告后，添加图组的最小百分比
+ReviveReturnProductCount,7,int,复活最大返回商品数量
+LvDifficultyTimeoutFailedReduceValue,4,int,超时失败减少难度
+LvDifficultyBoxFullFailedReduceValue,6,int,满格失败减少难度
+LvDifficultyGameCloseFailedReduceValue,0,int,中途退出及重完减少难度
+LvDifficultyGameFailedTime,2,int,当前关降低档位所需的连续失败次数
+LvDifficultyGameFailedReduceValue,2,int,当前关连续失败降低的难度档位数
+LvDifficultyGameFailedReduceValueTime,2,int,当前关连续失败降低档位触发次数上限
+PopProductFluctuationCoefficient,1,float,补充货品类型的权重计算波动系数
+GoldReviveReplaceModelNum,6,int,金币复活后替换 6 组模型，0 = 则不替换，且复活UI上不做展示
+AdReviveReplaceModelNum,3,int,广告复活后替换 3 组模型
+StarModelID,33294,int,星星模型ID

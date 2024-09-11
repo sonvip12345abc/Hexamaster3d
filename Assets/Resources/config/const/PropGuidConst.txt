@@ -1,0 +1,15 @@
+HintGuidOpen,1,int,提示引导开启开关
+HintGuidOpenLevel,6,int,提示引导开启关卡
+HintGuidInterval,30,float,提示有效操作时间间隔
+HintGuidAniInterval,15,float,提示引导每轮动画时间间隔（秒）：2 
+HintGuidAnimationPlayTimes,3,int,每次触发提示道具播放次数
+GuidAnimationTime,1.3,float,动画时长
+FreezeGuidOpen,1,int,冻结引导开启开关
+FreezeGuidOpenLevel,6,int,冻结引导开启关卡
+FreezeGuidTimeLeft,60,int,冻结道具开启关卡剩余时间
+FreezeGuidAniInterval,20,float,提示引导每轮动画时间间隔（秒）：10 
+FreezeAnimationPlayTimes,3,int,每次触发的播放次数
+RefreshGuidOpen,1,int,随机引导开启开关
+RefreshGuidOpenLevel,6,int,随机引导开启关卡
+RefreshGuidAniInterval,15,float,提示引导每轮动画时间间隔（秒）：10 
+RefreshAnimationPlayTimes,3,int,每次触发的播放次数

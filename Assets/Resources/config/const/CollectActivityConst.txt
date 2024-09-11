@@ -1,0 +1,6 @@
+IsOpen,1,int,是否开启
+StartTime,20220517000000,string,开始时间
+Duration,561600,int,持续时间（秒）
+CoolingTime,43200,int,冷却时间（秒）
+UnlockLevel,8,int,解锁关卡
+MaxGrade,3,int,最大等级

@@ -1,0 +1,16 @@
+HM3D_Main_road_icon_ani.png
+size:256,128
+filter:Linear,Linear
+pma:true
+11
+bounds:2,2,115,112
+offsets:2,1,118,114
+glow
+bounds:119,40,58,74
+offsets:3,5,64,84
+star
+bounds:179,100,14,14
+offsets:1,1,16,16
+text
+bounds:119,13,41,25
+offsets:1,1,43,27

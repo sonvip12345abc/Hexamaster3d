@@ -1,0 +1,8 @@
+#关卡元素种类数量限制,,,
+%id,LevelInitialTypeLevel,LevelMark
+$[id:unique][id:type:int],[LevelInitialTypeLevel:type:int],[LevelMark:type:int]
+1,1,0
+2,2,10
+3,3,30
+4,4,70
+5,5,100

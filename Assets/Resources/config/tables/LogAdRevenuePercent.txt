@@ -1,0 +1,7 @@
+#id,事件名,事件值
+%id,event_name,event_value
+$[id:unique][id:type:int],[event_name:type:string],[event_value:type:float]
+1,ad_impression90,0.9
+2,ad_impression80,0.8
+3,ad_impression70,0.7
+4,ad_impression60,0.6

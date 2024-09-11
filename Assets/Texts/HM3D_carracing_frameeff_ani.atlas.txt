@@ -1,0 +1,14 @@
+HM3D_carracing_frameeff_ani.png
+size:256,128
+filter:Linear,Linear
+green-star
+bounds:138,90,30,28
+offsets:1,1,32,30
+line
+bounds:2,2,134,116
+red-star
+bounds:138,60,30,28
+offsets:1,1,32,30
+yellow-star
+bounds:170,90,30,28
+offsets:1,1,32,30

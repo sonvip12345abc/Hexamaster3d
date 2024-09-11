@@ -1,0 +1,10 @@
+ProductDestroyDuration,0.2,float,商品消除时长
+ProductPushFrontDuration,0.5,float,商品前推时长
+ProductReturnFrontDuration,0.2,float,商品回到前排移动时长
+ProductPullBackDuration,0.2,float,商品后拉时长
+ProductCollectingDuration,0.2,float,商品收集时长
+ProductReturningDuration,0.4,float,商品回撤时长
+ProductReturnHideDuration,0.5,float,商品直接消失动画时长
+ProductPushShowDuration,0.5,float,商品直接展示动画时长
+ProductWaitingDestroyTime,0.2,float,移動完畢后等待消除动画时间
+ShelfHieght,1.5,float,货架高度

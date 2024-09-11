@@ -1,0 +1,13 @@
+#邮册表,,,,,,,
+#id,名称,邮票,随机权重,解锁等级,收集完奖励,预制体,封面图片
+%id,name,stamps,weights,unlock_level,reward,prefab,image
+$[id:unique][id:type:int],[name:type:string],[stamps:type:List<int>],[weights:type:List<int>],[unlock_level:type:int],[reward:type:List<class@RewardData>],[prefab:type:string],[image:type:string]
+100,Language950,101|102|103|104|105|108|109|111,1000|1000|500|500|150|150|50|10,1,0:200,albums/100/album100,albums/100/StampTheme6_160
+200,Language951,201|202|203|204|206|208|209|210,1000|1000|500|500|150|150|50|10,1,0:200,albums/200/album200,albums/200/StampTheme2_160
+300,Language952,301|302|303|304|305|307|309|310,1000|1000|500|500|150|150|50|10,20,0:300|11:1,albums/300/album300,albums/300/StampTheme5_160
+400,Language953,401|402|404|405|406|407|409|410,1000|1000|500|500|150|150|50|10,35,0:300|10:1,albums/400/album400,albums/400/StampTheme4_160
+600,Language954,609|603|608|607|601|606|602|610,1000|1000|500|500|150|150|50|10,50,0:300|11:1|10:1,albums/600/album600,albums/600/StampTheme2_160_2
+800,Language955,802|803|805|808|809|810|811,1000|1000|1000|400|400|20|20,65,0:400|11:1|10:1|13:1,albums/800/album800,albums/800/StampTheme1_160
+700,Language956,701|702|703|706|708|710|711,1000|1000|1000|400|400|20|20,80,0:400|11:2|10:2,albums/700/album700,albums/700/StampTheme9_160
+500,Language957,502|503|509|506|507|510|511,1000|1000|1000|400|400|20|20,100,0:500|10:2|13:2,albums/500/album500,albums/500/StampTheme8_160
+900,Language958,902|903|904|907|909|910|911,1000|1000|1000|400|400|20|20,120,0:500|11:2|10:2|13:2,albums/900/album900,albums/900/StampTheme7_160

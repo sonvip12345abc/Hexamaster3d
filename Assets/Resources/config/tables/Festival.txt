@@ -1,0 +1,5 @@
+#节日皮肤主题,,,,,
+#id,节日类型,开始时间,结束时间,主题名称,设置显示图标
+%id,desc,startTime,endTime,themeName,icon
+$[id:unique][id:type:int],[desc:type:string],[startTime:type:string],[endTime:type:string],[themeName:type:string],[icon:type:class@AssetRef]
+2,圣诞节,2023-12-01 00:00:00,2024-01-04 00:00:00,Language935,festival/2/Icon

@@ -1,0 +1,10 @@
+MaxGrade,24,int,(0~24)段位等级
+GradeStar,5,int,每个段位星星数
+LevelPrepareLimit,18,int,预告关卡
+LevelLimit,22,int,关卡限制
+OpenDays,6|0,List<int>,天0-6 0表示星期天
+AIScoreDelayTime,86400,int,AI开始计分延时（秒）
+RemainTimeNoOpen,3600,int,剩余时间（秒）不开启
+UpDownRanking,10|30,List<int>,上升下降排名
+AICount,59,int,星星排行榜活动ai人数
+AIRefreshOnceMinutes,60,int,ai刷新间隔（分钟）

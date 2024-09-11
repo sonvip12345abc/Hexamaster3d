@@ -1,0 +1,302 @@
+{
+  "filters": [
+    {
+      "name": "and-region-t1",
+      "field": "region",
+      "type": "String",
+      "method": "Full",
+      "targets": [
+        "us",
+        "gb",
+        "fr",
+        "ca",
+        "de",
+        "au",
+        "tw",
+        "kr",
+        "dk",
+        "ae"
+      ]
+    },
+    {
+      "name": "and-region-jp",
+      "field": "region",
+      "type": "String",
+      "method": "Full",
+      "targets": [
+        "jp"
+      ]
+    },
+    {
+      "name": "and-region-brtrvn",
+      "field": "region",
+      "type": "String",
+      "method": "Full",
+      "targets": [
+        "br",
+        "tr",
+        "vn"
+      ]
+    },
+    {
+      "name": "and-region-brt3",
+      "field": "region",
+      "type": "String",
+      "method": "Full",
+      "targets": [
+        "br",
+        "id",
+        "ar",
+        "th",
+        "ro",
+        "pe",
+        "pt",
+        "pl",
+        "sa",
+        "cz",
+        "ru"
+      ]
+    },
+    {
+      "name": "and-region-phin",
+      "field": "region",
+      "type": "String",
+      "method": "Full",
+      "targets": [
+        "ph",
+        "in"
+      ]
+    },
+    {
+      "name": "and-region-trvn",
+      "field": "region",
+      "type": "String",
+      "method": "Full",
+      "targets": [
+        "tr",
+        "vn"
+      ]
+    },
+    {
+      "name": "and-t1-us",
+      "field": "region",
+      "type": "String",
+      "method": "Full",
+      "targets": [
+        "us"
+      ]
+    },
+    {
+      "name": "t1-us",
+      "field": "region",
+      "type": "String",
+      "method": "Full",
+      "targets": [
+        "us"
+      ]
+    },
+    {
+      "name": "and-region-br",
+      "field": "region",
+      "type": "String",
+      "method": "Full",
+      "targets": [
+        "br"
+      ]
+    },
+    {
+      "name": "ios-region-t1",
+      "field": "region",
+      "type": "String",
+      "method": "Full",
+      "targets": [
+        "us",
+        "gb",
+        "de",
+        "ca",
+        "au",
+        "mx",
+        "es",
+        "jp",
+        "tw",
+        "fr"
+      ]
+    },
+    {
+      "name": "ios",
+      "field": "platform",
+      "type": "String",
+      "method": "Full",
+      "targets": [
+        "ios"
+      ]
+    },
+    {
+      "name": "android",
+      "field": "platform",
+      "type": "String",
+      "method": "Full",
+      "targets": [
+        "android"
+      ]
+    },
+    {
+      "name": "no_ads",
+      "field": "adfree",
+      "type": "String",
+      "method": "Full",
+      "targets": [
+        "ad_free"
+      ]
+    },
+    {
+      "name": "highvalue",
+      "field": "campaign",
+      "type": "String",
+      "method": "LabelContainTarget",
+      "targets": [
+        "vo",
+        "aeo",
+        "3.0",
+        "2.5-purchase",
+        "roas"
+      ]
+    },
+    {
+      "name": "paid",
+      "field": "paid",
+      "type": "String",
+      "method": "LabelContainTarget",
+      "targets": [
+        "paid"
+      ]
+    },
+    {
+      "name": "percentage_a",
+      "field": "percentage",
+      "type": "String",
+      "method": "Full",
+      "targets": [
+        "Per-25",
+        "Per-85",
+        "Per-60",
+        "Per-15",
+        "Per-35",
+        "Per-20",
+        "Per-30",
+        "Per-100",
+        "Per-10",
+        "Per-45"
+      ]
+    },
+    {
+      "name": "percentage_10",
+      "field": "percentage",
+      "type": "String",
+      "method": "Full",
+      "targets": [
+        "Per-25",
+        "Per-85"
+      ]
+    },
+    {
+      "name": "percentage_30",
+      "field": "percentage",
+      "type": "String",
+      "method": "Full",
+      "targets": [
+        "Per-25",
+        "Per-85",
+        "Per-95",
+        "Per-10",
+        "Per-20",
+        "Per-5"
+      ]
+    },
+    {
+      "name": "percentage_70",
+      "field": "percentage",
+      "type": "String",
+      "method": "Full",
+      "targets": [
+        "Per-25",
+        "Per-85",
+        "Per-95",
+        "Per-10",
+        "Per-20",
+        "Per-5",
+        "per-45",
+        "per-90",
+        "per-35",
+        "per-75",
+        "per-60",
+        "per-15",
+        "per-50",
+        "per-70"
+      ]
+    },
+    {
+      "name": "passlevel_50more",
+      "field": "pass_level",
+      "type": "Int32",
+      "method": "Greater",
+      "targets": [
+        "49"
+      ]
+    },
+    {
+      "name": "passlevel_20more",
+      "field": "pass_level",
+      "type": "Int32",
+      "method": "Greater",
+      "targets": [
+        "20"
+      ]
+    },
+    {
+      "name": "passlevel_25more",
+      "field": "pass_level",
+      "type": "Int32",
+      "method": "Greater",
+      "targets": [
+        "25"
+      ]
+    },
+    {
+      "name": "passlevel_80more",
+      "field": "pass_level",
+      "type": "Int32",
+      "method": "Greater",
+      "targets": [
+        "79"
+      ]
+    },
+    {
+      "name": "passlevel_100more",
+      "field": "pass_level",
+      "type": "Int32",
+      "method": "Greater",
+      "targets": [
+        "100"
+      ]
+    },
+    {
+      "name": "organic",
+      "field": "organic",
+      "type": "String",
+      "method": "Full",
+      "targets": [
+        "organic"
+      ]
+    }
+  ],
+  "rules": [
+  
+    
+  
+
+  ],
+  "groups": [
+    
+  ]
+}

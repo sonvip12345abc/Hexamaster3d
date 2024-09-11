@@ -1,0 +1,12 @@
+HM3D_progressbar_glow_ani.png
+size:1024,256
+filter:Linear,Linear
+glow
+bounds:2,142,366,66
+offsets:4,4,374,74
+glow2
+bounds:2,19,120,121
+offsets:4,4,128,128
+star
+bounds:370,2,206,206
+offsets:16,17,239,240

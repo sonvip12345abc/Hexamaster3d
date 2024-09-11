@@ -1,0 +1,10 @@
+#关卡元素种类数量随轮次升级,,,
+%id,Level,MaxModelCount,UpgradeRefreshCount,SingleModelDifficultyLevel
+$[id:unique][id:type:int],[Level:type:int],[MaxModelCount:type:int],[UpgradeRefreshCount:type:int],[SingleModelDifficultyLevel:type:int]
+1,1,2,0,1
+2,2,3,2,1
+3,3,3,5,1
+4,4,3,5,1
+5,5,3,6,1
+6,6,4,6,1
+7,7,4,6,1

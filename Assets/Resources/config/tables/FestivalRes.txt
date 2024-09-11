@@ -1,0 +1,8 @@
+#节日皮肤主题资源路径,,,,
+#id,活动,描述,资源名称,资源路径
+%id,activity,desc,key,path
+$[id:unique][id:type:int],[activity:type:int],[desc:type:string],[key:type:string],[path:type:class@AssetRef]
+39,2,logo,logo,festival/2/Logo
+40,2,胜利弹窗,victoryTitle,festival/2/VictoryTitle
+41,2,礼包弹窗底部,bottom,festival/2/GiftBottom
+42,2,主界面开始按钮,mainBtn,festival/2/MainBtn

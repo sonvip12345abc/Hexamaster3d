@@ -1,0 +1,13 @@
+HM3D_Main_gift02_icon_ani.png
+size:256,128
+filter:Linear,Linear
+pma:true
+Off
+bounds:115,17,66,83
+offsets:2,2,71,87
+star
+bounds:183,73,26,27
+offsets:3,3,31,32
+zhuanpan
+bounds:2,2,111,98
+offsets:1,5,115,104

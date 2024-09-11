@@ -1,0 +1,7 @@
+IsOpen,1,int,是否开启
+OpenLevel,5,int,活动开启等级，打过
+ActivityDuration,604800,int,活动持续时间(单位：s）
+ActiveInitialStartLevel,0,int,活动任务初始档位
+ActiveLevelChange,0:-1|1:0|2:1|3:2,Dictionary<int&int>,活动任务完成加分数值（完成任务数：档位变化）
+MandateComposition,1:2|2:2|3:1|4:1,Dictionary<int&int>,"活动任务组成（1,2,3,4对应活动标签）"
+LevelRange,0|5,List<int>,活动挡位上下限制

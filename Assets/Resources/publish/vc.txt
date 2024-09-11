@@ -1,0 +1,44 @@
+
+{
+    "VersionNum" : 12724462,
+    "BundleRelativePath" : "publish",
+    "NeedFixBundles"     : false,
+    "Bundles"            : [
+        {
+            "CRC" : 978854498,
+            "Dependency" : [
+            ],
+            "Encrypted"  : false,
+            "MD5"        : "d887649a0034d4174a92d31ad91c1420",
+            "Name"       : "config/const",
+            "Size"       : 10372
+        },
+        {
+            "CRC" : 1875953815,
+            "Dependency" : [
+            ],
+            "Encrypted"  : false,
+            "MD5"        : "b4e745ae7cbfff60208e320d43b58db3",
+            "Name"       : "config/json",
+            "Size"       : 6871
+        },
+        {
+            "CRC" : 1893216287,
+            "Dependency" : [
+            ],
+            "Encrypted"  : false,
+            "MD5"        : "76fdf374fc55a0af70bf110dee8c64c9",
+            "Name"       : "config/language",
+            "Size"       : 198015
+        },
+        {
+            "CRC" : 2637618891,
+            "Dependency" : [
+            ],
+            "Encrypted"  : false,
+            "MD5"        : "ec61d20b19a48dbe4b98ccabdda6593c",
+            "Name"       : "config/tables",
+            "Size"       : 84135
+        }
+    ]
+}

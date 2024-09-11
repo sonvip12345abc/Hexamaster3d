@@ -1,0 +1,5 @@
+LevelSceneSkinReplaceIsOpen,1,int,背景替换是否开启
+LevelSceneSkinReplaceUnlockLevel,21,int,背景替换开启关卡
+LevelSceneSkinDefault,1,int,背景默认配置
+LevelSceneSkinGroup,4|3|2|1,List<int>,背景轮换池（背景id）
+LevelSceneSkinLevelInterval,10,int,背景更新关卡间隔

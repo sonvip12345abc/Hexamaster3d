@@ -1,0 +1,9 @@
+GM3D_star_ani.png
+size:256,128
+filter:Linear,Linear
+Star-line
+bounds:2,2,60,58
+star11
+bounds:2,62,65,63
+star12
+bounds:69,62,65,63

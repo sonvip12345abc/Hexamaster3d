@@ -1,0 +1,19 @@
+#id,事件类型 1 fb 2 firebase,事件名,事件值,是否重复,是否包含iap
+%id,type,event_name,event_value,repeat,contain_iap
+$[id:unique][id:type:int],[type:type:int],[event_name:type:string],[event_value:type:float],[repeat:type:bool],[contain_iap:type:bool]
+1,2,ad_revenue_0002,0.002,true,false
+2,2,ad_revenue_0005,0.005,true,false
+3,2,ad_revenue_001,0.01,true,false
+4,2,ad_revenue_01,0.1,true,false
+5,2,tch_ad_rev_roas_001 ,0.01,true,true
+6,1,ad_revenue001,0.01,false,false
+7,1,ad_revenue002,0.02,false,false
+8,1,ad_revenue003,0.03,false,false
+9,1,ad_revenue005,0.05,false,false
+10,1,ad_revenue007,0.07,false,false
+11,1,ad_revenue01,0.1,false,false
+12,1,ad_revenue02,0.2,false,false
+13,1,ad_revenue03,0.3,false,false
+14,1,ad_revenue05,0.5,false,false
+15,1,ad_revenue07,0.7,false,false
+16,1,purchase ,0.01,true,true

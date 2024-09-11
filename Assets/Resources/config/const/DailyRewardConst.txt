@@ -1,0 +1,4 @@
+OpenLevel,5,int,每日奖励活动开启等级
+FreeGearRefreshTime,3600,int,免费档刷新时间（单位：s)
+AdSlotRefreshTime,43200,int,广告档刷新时间（单位：s）
+IsOpen,1,int,是否开启每日奖励活动（1：开启；0：关闭）

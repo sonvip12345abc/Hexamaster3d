@@ -1,0 +1,9 @@
+IsDifficultyCorrection,1,int,关内难度修正是否开启（1：开启；0：关闭）
+DifficultyPointsInitialValue,0,int,难度积分初始值
+UsePropsDifficultyCorrection,-2,int,关内使用道具难度档位修正值
+UseRevitalizeDifficultyCorrection,-3,int,关内使用复活难度档位修正值
+LevelVictoryDifficultyCorrection,5,int,关卡首次胜利积分变化
+LevelFailureDifficultyCorrection,1:0|0.8:-3|0.5:-2|0.1:0,Dictionary<float&int>,关卡失败积分变化
+DifficultyGearCycleCount,1:10|2:10|3:10|4:10,Dictionary<int&int>,难度档位循环次数
+DynamicDifficultyMinimumPoints,0,int,动态难度最小积分
+DynamicDifficultyMaximumPoints,225,int,动态难度最大积分

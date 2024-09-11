@@ -1,0 +1,37 @@
+﻿LevelMinTime,80,int,关卡最小时间（秒）
+RepeatDifficultyMin,-5,int,关卡重复难度最小值
+RepeatDifficultyMax,0,int,关卡重复难度最大值
+RepeatDifficultyFailReduceValue,1,int,游戏失败，关卡重复难度减少值
+LevelDifficultyMin,0,int,关卡难度最小值
+LevelDifficultyMax,28,int,关卡难度最大值
+LevelDifficultyFailReduceValue,4,int,游戏失败，关卡难度减少值
+LevelDifficultyWinAddValueByTime,60:2|30:1,Dictionary<int&int>,游戏胜利，关卡难度根据剩余时间减少值
+DifficultyUnlockLevel,28,int,难度解锁关卡
+DifficultyTakeEffectLevel,31,int,难度开始生效关卡
+NotRepeatCoefficientMin,0.2,float,不重复系数最小值
+StopFourDirectionMoveCondition,4,int,停止四方向移动的条件（组数）
+FixedThreeContainerRounds,2,int,多少轮之前固定为3个容器
+FourContainerBaseWeight,20,int,4个容器的基础基础权重（满值100）
+FourContainerWeightIncrement,20,int,该轮没有随机到4个容器的权重增量
+SingleRoundMinModelTypeCount,2,int,单轮最小模型种类数
+DifficultyContainerBaseModelTypeCount,1|2|20|3,List<int>,难度容器的基础模型种类数（最小轮次|种类数|最小轮次|种类数）（1<=种类数<= 5）
+DifficultyContainerModelTypeCountChange,1|-1|9|0|16|1,List<int>,难度容器中模型数变化（棋盘空格数|种类数变化值|棋盘空格数|种类数变化值）
+HammerUnlockLevel,3,int,锤子道具解锁积分（修改，等级）
+HammerCD,1,int,锤子CD
+HammerBuyOnceNum,1,int,用金币购买一次获得的锤子道具数量
+HammerNeedGold,100,int,买锤子道具花费的金币
+DragUnlockLevel,5,int,拖拽道具解锁等级
+DragCD,1,int,拖拽道具CD
+DragBuyOnceNum,1,int,金币购买一次获得拖拽道具数量
+DragNeedGold,200,int,购买拖拽道具花费的金币
+RefreshUnlockLevel,7,int,刷新道具解锁积分
+RefreshCD,1,int,刷新CD
+RefreshBuyOnceNum,1,int,用金币购买一次获得的刷新道具数量
+RefreshNeedGold,100,int,买刷新道具花费的金币
+UnlockGridIncrementalScore,25,int,分数解锁格递增分数
+EliminationQuantityRequired,10,int,砖块消除所需数量
+ChipTypeWeight,10,int,面片类型权重
+BlockDefaultWeight,1,int,地块默认权重
+BlockLinksMaxWeight,6,int,地块关联权重最大值，用于减去 LinksCount
+MultiplyTypeWeight,1,int,多层面片叠加权重
+GoalConversionStars,0.1,float,目标数转化星星比例

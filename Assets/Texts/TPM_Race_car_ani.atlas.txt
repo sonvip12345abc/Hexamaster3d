@@ -1,0 +1,13 @@
+TPM_Race_car_ani.png
+size:256,256
+filter:Linear,Linear
+car1
+bounds:2,2,93,144
+rotate:90
+car2
+bounds:118,102,102,150
+car3
+bounds:2,97,114,155
+tx_Smoke_022
+bounds:148,43,57,57
+offsets:3,2,64,64

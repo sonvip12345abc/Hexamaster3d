@@ -1,0 +1,4 @@
+PigAddGold,250,int,金猪每次增加的金币
+PigMinGold,1500,int,金猪最少金币
+PigMaxGold,3000,int,金猪最大金币
+PigUnLockLevel,4,int,金猪解锁等级

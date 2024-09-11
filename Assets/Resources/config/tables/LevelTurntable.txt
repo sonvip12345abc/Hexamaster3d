@@ -1,0 +1,12 @@
+#关卡转盘开启配置
+#编号,关卡ID,
+%id,level_count
+$[id:unique][id:type:int],[level_count:type:int]
+1,4
+2,6
+3,10
+4,10
+5,10
+6,10
+7,10
+8,10

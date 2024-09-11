@@ -1,0 +1,15 @@
+HM3D_prop_eff_ani.png
+size:256,128
+filter:Linear,Linear
+caihong-glow
+bounds:2,2,114,114
+offsets:2,1,117,116
+green-star
+bounds:118,88,30,28
+offsets:1,1,32,30
+red-star
+bounds:118,58,30,28
+offsets:1,1,32,30
+yellow-star
+bounds:150,88,30,28
+offsets:1,1,32,30

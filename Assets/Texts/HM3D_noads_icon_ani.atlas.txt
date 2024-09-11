@@ -1,0 +1,6 @@
+HM3D_noads_icon_ani.png
+size:128,128
+filter:Linear,Linear
+noads
+bounds:2,2,112,102
+offsets:5,8,122,122

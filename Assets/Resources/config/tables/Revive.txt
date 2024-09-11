@@ -1,0 +1,6 @@
+#失败复活条件表,失败次数,复活消耗金币数量,增加时长
+%id,sevive_times,gold_cost,add_times
+$[id:unique][id:type:int],[sevive_times:type:int],[gold_cost:type:int],[add_times:type:float]
+1,0,700,60
+2,1,1000,60
+3,2,1300,60

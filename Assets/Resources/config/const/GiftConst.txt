@@ -1,0 +1,7 @@
+GiftStallsMin,1,int,礼包最小档位
+GiftStallsMax,6,int,礼包最大档位
+GiftStallsDefault,1,int,默认礼包档位
+GiftStallsUpCondition,1|2|2|1|1,List<int>,礼包档位升档条件
+GiftStallsDownTime,48|72|72|96|96,List<int>,礼包档位降档超时时间(小时)
+LvBuyProp,11,int,道具购买功能开启关卡
+DailyLoginGuideFramePopTimes,3,int,购买后登录弹窗每日弹出次数

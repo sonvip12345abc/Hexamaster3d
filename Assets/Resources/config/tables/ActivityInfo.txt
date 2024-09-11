@@ -1,0 +1,8 @@
+#活动表
+#id,活动开关,名称,解锁等级,开启时间,冷却时间,持续时间,活动说明（无用的字段，方便策划配表）
+%id,[toggle:type:int],name,unlock_level,start_time,cool_time,continued_time,name_text
+$[id:unique][id:type:int],[toggle:type:int],[name:type:string],[unlock_level:type:int],[start_time:type:string],[cool_time:type:int],[continued_time:type:int],[name_text:type:string]
+1,1,Language801,20,20220517000000,43200,561600,黄金块收集，每周二凌晨开启，持续6.5天，周一下午关闭
+2,1,Language654,25,20220730000000,432000,172800,星星联赛，周6、周日
+3,1,Language866,17,20220517000000,43200,561600,财富之路，每周二凌晨开启，持续6.5天，周一下午关闭
+4,1,Language654,50,20230526000000,500,604300,无尽宝藏，七天一轮，间隔时间5分钟，周5零点开启

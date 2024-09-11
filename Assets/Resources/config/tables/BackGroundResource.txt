@@ -1,0 +1,14 @@
+﻿#id,背景路径,描述,描述 纯文文字
+%id,unlockLevel,unlockCoin,isDefault,path,description,des
+$[id:unique][id:type:int],[unlockLevel:type:int],[unlockCoin:type:Dictionary<int&int>],[isDefault:type:int],[path:type:string],[description:type:string],[des:type:string]
+1,0,,1,sprites/background/homebg_1,Language100,木制商店
+2,0,,0,sprites/background/homebg_2,Language100,宜家风格
+3,0,,0,sprites/background/homebg_3,Language100,简约风格
+4,0,,0,sprites/background/homebg_4,Language100,冰淇淋商店
+5,50,,0,sprites/background/homebg_5,Language100,温馨咖啡厅
+6,100,0:500,0,sprites/background/homebg_6,Language100,简约蔬菜
+7,150,0:1500,0,sprites/background/homebg_7,Language100,简约商店
+11,200,1:1,0,sprites/background/p2_homebg_1,Language100,白色灯光
+12,250,1:1,0,sprites/background/p2_homebg_2,Language100,雨夜霓虹
+13,300,,0,sprites/background/p2_homebg_3,Language100,森林气息
+14,350,,0,sprites/background/p2_homebg_4,Language100,质朴黄黑

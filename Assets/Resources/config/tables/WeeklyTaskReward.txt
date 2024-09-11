@@ -1,0 +1,6 @@
+#失败复活条件表,失败次数,复活消耗金币数量,增加时长
+%id,require_process,rewards
+$[id:unique][id:type:int],[require_process:type:int],[rewards:type:Dictionary<int&int>]
+1,30,0:150|10:2
+2,60,0:375|10:2|11:2
+3,100,0:500|10:2|11:2|12:2|21:60

@@ -1,0 +1,11 @@
+ActivityPreviewLevel,10,int,活动预告等级
+ActivityUnlockLevel,15,int,活动解锁等级
+ActivityStartTime,20240307140000,string,首期活动开启时间
+ActivityContinuedTime,7200,int,活动持续时间/秒
+ActivityCdTime,79200,int,活动冷却时间/秒
+ActivityCloseDoorTime,900,int,活动关门时间/秒
+ActivityWinScore,8,List<int>,各阶段胜利分数
+ActivityWinPlayerNum,3,List<int>,各阶段胜利玩家数
+ActivityAiCreateTime,3|15,List<int>,AI玩家生成间隔
+ActivityRoundCount,1,int,回合数
+BaseLevelPassTime,300,int,基础平均通关时间/秒

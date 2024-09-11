@@ -1,0 +1,5 @@
+UserLevelFunctionStage,1,int,功能是否关闭(1:开启   0：关闭)
+AddScore,1,int,增加分数
+OtherGoldNumber,10,int,观看广告奖励额外金币
+LevelUpCD,20,int,升级后的cd时间
+UserInterstitialUnlockLevel,11,int,用户等级插屏解锁关卡

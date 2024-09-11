@@ -1,0 +1,29 @@
+#直购表,,,,,,,
+#id,商品id,直购类型,名称,折扣(0-100),物品,Icon,描述
+%id,store_id,purchase_type,name,discount,items,icon_Res,decription
+$[id:unique][id:type:int],[store_id:type:int],[purchase_type:type:int],[name:type:string],[discount:type:int],[items:type:string],[icon_Res:type:string],[decription:type:string]
+1,1,0,Big Bundle,0,0:2100|10:2|11:2|12:2,StoreIcon/ShopPack1,4.99
+2,2,0,Super Bundle,0,0:4200|10:4|11:4|12:4,StoreIcon/ShopPack2,9.99
+3,3,0,Huge Bundle,0,0:8400|10:8|11:8|12:8,StoreIcon/ShopPack3,19.99
+4,4,0,Mega Bundle,0,0:18375|10:15|11:15|12:15,StoreIcon/ShopPack4,39.99
+5,5,0,Brilliant Bundle,0,0:36750|10:30|11:30|12:30,StoreIcon/ShopPack5,79.99
+7,6,1,Remove Ads,0,20:1,,6.99
+8,8,0,Fistful Of Golds,0,0:1050,StoreIcon/Gold1,0.99
+9,9,0,Pouch Of Golds,0,0:3150,StoreIcon/Gold2,2.99
+10,10,0,Bucket Of Golds,0,0:7350,StoreIcon/Gold3,6.99
+11,11,0,Barrel Of Golds,0,0:13650,StoreIcon/Gold4,12.99
+12,12,0,Wagon Of Golds,0,0:26250,StoreIcon/Gold5,24.99
+13,13,0,Mountain Of Golds,0,0:52500,StoreIcon/Gold6,49.99
+14,18,5,Hanmmer Standard Package,0,10:5,,2.99
+15,19,5,Hanmmer Supplementary Package,0,10:12,,5.99
+16,17,5,Hanmmer Extra Package,0,10:25,,9.99
+17,24,12,Refresh Standard Package,0,12:5,,2.99
+18,25,12,Refresh Supplementary Package,0,12:12,,5.99
+19,23,12,Refresh Extra Package,0,12:25,,9.99
+20,21,6,Drag Standard Package,0,11:5,,2.99
+21,22,6,Drag Supplementary Package,0,11:12,,5.99
+22,20,6,Drag Extra Package,0,11:25,,9.99
+23,26,2,Golden Pig,0,0:4000,,2.99
+24,14,7,Life Extra Package,0,21:120,,9.99
+25,15,7,Life Standard Package,0,21:30,,2.99
+26,16,7,Life Supplementary Package,0,21:70,,5.99

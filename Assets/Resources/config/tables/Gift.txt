@@ -1,0 +1,100 @@
+#礼包表,,,,,,,,,,,,,,,,,,
+#唯一Id,关联的礼包Id,商品id,礼包类型（1：普通礼包、2：去广告礼包、3：复活礼包、4：组合礼包、5：每日组合循环礼包）,弹框预制体,出现时间,星期几（-1无效）,出现条件（或）（GiftPopConditionGroup中的rule字段）,出现条件（与）（GiftPopConditionGroup中的rule字段）,触发位置（0：不会自动弹出、1：关闭道具获得界面、2：使用道具后的关卡界面、3：返回至主界面、4：刚进入关卡界面、5：金币复活，金币不足）,能购买的次数（-1：无限次）,能自动弹出的次数（-1：无限次）,持续时间（小时）（-1：该礼包没有持续时间，也就是在主界面放置入口）,购买类型（0：原价、-1：免费、>0：金币购买）,弹出CD（0：间隔分钟、1：间隔天数、2间隔关卡数）（0和1不能同时出现）,名字,物品,折扣(0-100),描述
+%id,associated_gift_Ids,store_id,type,pop_prefab,show_time,show_week,pop_or_conditions,pop_and_conditions,trigger_positions,can_buy_count,can_auto_pop_count,continue_time,buy_type,pop_cd,name,items,discount,decription
+$[id:unique][id:type:int],[associated_gift_Ids:type:List<int>],[store_id:type:int],[type:type:int],[pop_prefab:type:string],[show_time:type:string],[show_week:type:List<int>],[pop_or_conditions:type:List<string>],[pop_and_conditions:type:List<string>],[trigger_positions:type:List<int>],[can_buy_count:type:int],[can_auto_pop_count:type:int],[continue_time:type:int],[buy_type:type:int],[pop_cd:type:Dictionary<int&int>],[name:type:string],[items:type:string],[discount:type:int],[decription:type:stirng]
+101,,27,1,GiftDialog,20200101-20300101,-1,,passlevel_8more|Daily_Pass_Level_6more,4|3,1,-1,1,0,1:1,Novice Special Pack,0:7100|10:1|11:1|21:15,3,弹出礼包
+901,,7,2,GiftNoAdsDialog,20200101-20300101,-1,,passlevel_5more|Daily_Pass_Level_3more,3|4,1,-1,-1,0,1:1,Remove Ads Pack,0:7900|20:1,3,免广告礼包
+201,,28,1,GiftDialog,20200101-20300101,-1,Buy_Hint_Prop_Direct_Purchase_Count_1less|Use_Gold_Coin_Buy_Hint_Prop_Count_1less,Used_Hint_Prop_Count_3more|Hint_Prop_Remaining_Count_2less,4|2,-1,-1,-1,0,1:1,Newbie Hammers Pack,0:3150|10:2,3,弹出锤子礼包
+202,,29,1,GiftDialog,20200101-20300101,-1,Buy_Hint_Prop_Direct_Purchase_Count_1more|Use_Gold_Coin_Buy_Hint_Prop_Count_1more,Daily_Used_Hint_Prop_Count_1more|Hint_Prop_Remaining_Count_2less|Money_Remaining_Count_400less,4|2,-1,-1,-1,0,1:1,Promo Hammers Pack,0:7900|10:3,3,弹出锤子礼包
+203,,30,1,GiftDialog,20200101-20300101,-1,Buy_Hint_Prop_Direct_Purchase_Count_1more|Use_Gold_Coin_Buy_Hint_Prop_Count_1more,Daily_Used_Hint_Prop_Count_1more|Hint_Prop_Remaining_Count_2less|Money_Remaining_Count_400less,4|2,-1,-1,-1,0,1:1,Deluxe Hammers Pack,0:13150|10:4,3,弹出锤子礼包
+204,,31,1,GiftDialog,20200101-20300101,-1,Buy_Freeze_Prop_Direct_Purchase_Count_never|Use_Gold_Coin_Buy_Freeze_Prop_Count_1less,Used_Freeze_Prop_Count_3more|Freeze_Prop_Remaining_Count_2less,4|2,-1,-1,-1,0,1:1,Newie Drag Pack,0:3150|11:4,3,拖拽弹出礼包
+205,,32,1,GiftDialog,20200101-20300101,-1,Buy_Freeze_Prop_Direct_Purchase_Count_1more|Use_Gold_Coin_Buy_Freeze_Prop_Count_1more,Daily_Used_Freeze_Prop_Count_1more|Freeze_Prop_Remaining_Count_2less|Money_Remaining_Count_400less,4|2,-1,-1,-1,0,1:1,Promo Drag Pack,0:7900|11:4,3,拖拽弹出礼包
+206,,33,1,GiftDialog,20200101-20300101,-1,Buy_Freeze_Prop_Direct_Purchase_Count_1more|Use_Gold_Coin_Buy_Freeze_Prop_Count_1more,Daily_Used_Freeze_Prop_Count_1more|Freeze_Prop_Remaining_Count_2less|Money_Remaining_Count_400less,4|2,-1,-1,-1,0,1:1,Deluxe Drag Pack,0:13150|11:8,3,拖拽弹出礼包
+207,,34,1,GiftDialog,20200101-20300101,-1,,Daily_Consume_Energy_5more,4|3,-1,-1,-1,0,1:1,Promo Health Pack,0:3150|21:20,3,体力弹出礼包
+208,,35,1,GiftDialog,20200101-20300101,-1,,Daily_Consume_Energy_5more,4|3,-1,-1,-1,0,1:1,Deluxe Health Pack,0:3150|21:60,3,体力弹出礼包
+209,,36,1,GiftDialog,20200101-20300101,-1,,Daily_Consume_Energy_5more,4|3,-1,-1,-1,0,1:1,Super Value Health Pack,0:3150|21:120,3,体力弹出礼包
+215,,37,1,GiftDialog,20200101-20300101,-1,Buy_Refresh_Prop_Direct_Purchase_Count_1less|Use_Gold_Coin_Buy_Refresh_Prop_Count_1less,Used_Refresh_Prop_Count_3more|Refresh_Prop_Remaining_Count_2less,4|2,-1,-1,-1,0,1:1,Newbie Refresh Pack,0:3150|12:2,3,弹出刷新礼包
+216,,38,1,GiftDialog,20200101-20300101,-1,Buy_Refresh_Prop_Direct_Purchase_Count_1more|Use_Gold_Coin_Buy_Refresh_Prop_Count_1more,Daily_Used_Refresh_Prop_Count_1more|Refresh_Prop_Remaining_Count_2less|Money_Remaining_Count_400less,4|2,-1,-1,-1,0,1:1,Promo Refresh Pack,0:7900|12:3,3,弹出刷新礼包
+217,,39,1,GiftDialog,20200101-20300101,-1,Buy_Refresh_Prop_Direct_Purchase_Count_1more|Use_Gold_Coin_Buy_Refresh_Prop_Count_1more,Daily_Used_Refresh_Prop_Count_1more|Refresh_Prop_Remaining_Count_2less|Money_Remaining_Count_400less,4|2,-1,-1,-1,0,1:1,Deluxe Refresh Pack,0:13150|12:4,3,弹出刷新礼包
+210,,40,1,GiftDialog,20200101-20300101,-1,Daily_Gold_Coin_Revive_Count_1more|Daily_Ad_Revive_Count_1more,Revive_Count_3more|Money_Remaining_Count_600less,4|3,-1,-1,-1,0,1:1,Newbie Gold Pack,0:10500,3,金币礼包
+211,,41,1,GiftDialog,20200101-20300101,-1,Daily_Gold_Coin_Revive_Count_1more|Daily_Ad_Revive_Count_1more,Revive_Count_3more|Money_Remaining_Count_600less|Internal_Purchase_Gold_Coin_Buy_Count_1more,4|3,-1,-1,-1,0,1:1,Super Value Gold Pack,0:25200,3,金币礼包
+212,,42,1,GiftDialog,20200101-20300101,-1,Daily_Gold_Coin_Revive_Count_1more|Daily_Ad_Revive_Count_1more,Revive_Count_3more|Money_Remaining_Count_600less|Internal_Purchase_Gold_Coin_Buy_Count_1more,4|3,-1,-1,-1,0,1:1,Promo Gold Pack,0:47250,3,金币礼包
+213,,43,1,GiftDialog,20200101-20300101,-1,Daily_Gold_Coin_Revive_Count_1more|Daily_Ad_Revive_Count_1more,Revive_Count_3more|Money_Remaining_Count_600less|Internal_Purchase_Gold_Coin_Buy_Count_1more|Internal_Purchase_Count_5more|Internal_Purchase_Count_10less,4|3,-1,-1,-1,0,1:1,Never Give Up Special Pack,0:31500|10:1|11:1|21:30,3,复活金币礼包
+214,,44,1,GiftDialog,20200101-20300101,-1,Daily_Gold_Coin_Revive_Count_1more|Daily_Ad_Revive_Count_1more,Revive_Count_3more|Money_Remaining_Count_600less|Internal_Purchase_Gold_Coin_Buy_Count_1more|Internal_Purchase_Count_10more,4|3,-1,-1,-1,0,1:1,Never Give Up,0:6900|10:1|11:1|21:45,3,复活金币礼包
+102,,45,1,GiftDialog,20200101-20300101,-1,,Daily_Pass_Level_4more|passlevel_10more,3,-1,-1,2,0,1:1,Super Game Pack,0:9200|10:1|11:1|12:1,3,常驻限时礼包
+103,,46,1,GiftDialog,20200101-20300101,-1,,Daily_Pass_Level_8more|passlevel_10more,3,-1,-1,2,0,1:1,Challenge Special Pack,0:10500|10:2|11:2|12:2,3,常驻限时礼包
+104,,47,1,GiftDialog,20200101-20300101,-1,,Daily_Pass_Level_4more|passlevel_10more,3,-1,-1,2,0,1:1,Taurus Special Pack,0:4200|10:8|21:10,3,常驻限时礼包
+105,,48,1,GiftDialog,20200101-20300101,-1,,Daily_Pass_Level_8more|passlevel_10more,3,-1,-1,2,0,1:1,Moon Pack,0:4200|11:8|21:10,3,常驻限时礼包
+106,,49,1,GiftDialog,20200101-20300101,-1,,Daily_Pass_Level_4more|passlevel_10more,3,-1,-1,2,0,1:1,Crazy Game Pack,0:2650|10:3|11:3|12:3,3,常驻限时礼包
+107,,50,1,GiftDialog,20200101-20300101,-1,,Daily_Pass_Level_8more|passlevel_10more,3,-1,-1,2,0,1:1,Sun Pack,0:21000|10:1|11:1|21:20,3,常驻限时礼包
+108,,51,1,GiftDialog,20200101-20300101,-1,,Daily_Pass_Level_4more|passlevel_10more,3,-1,-1,2,0,1:1,Super Star Pack,0:9000|10:4|11:4|12:4,3,常驻限时礼包
+109,,52,1,GiftDialog,20200101-20300101,-1,,Daily_Pass_Level_8more|passlevel_10more,3,-1,-1,2,0,1:1,Super Moon Pack,0:22900|10:3|11:3|12:3,3,常驻限时礼包
+110,,53,1,GiftDialog,20200101-20300101,-1,,Daily_Pass_Level_4more|passlevel_10more,3,-1,-1,2,0,1:1,Victory Booster Pack,0:15750|11:5|21:20,3,常驻限时礼包
+111,,54,1,GiftDialog,20200101-20300101,-1,,Daily_Pass_Level_8more|passlevel_10more,3,-1,-1,2,0,1:1,Leo Special Pack,0:15750|10:10|21:20,3,常驻限时礼包
+112,,55,1,GiftDialog,20200101-20300101,-1,,Daily_Pass_Level_4more|passlevel_10more,3,-1,-1,2,0,1:1,Happy Game Pack,0:21000|11:10|21:20,3,常驻限时礼包
+113,,56,1,GiftDialog,20200101-20300101,-1,,Daily_Pass_Level_4more|Internal_Purchase_Count_5more|Internal_Purchase_Count_10less|passlevel_10more,3,-1,-1,2,0,1:1,Super Sun Pack,0:15750|10:8|11:8|12:8,3,常驻限时礼包
+114,,57,1,GiftDialog,20200101-20300101,-1,,Daily_Pass_Level_8more|Internal_Purchase_Count_10more|passlevel_10more,3,-1,-1,2,0,1:1,Sagittarius Special Pack,0:21000|10:10|11:10|12:10,3,常驻限时礼包
+115,,58,1,GiftDialog,20200101-20300101,-1,,Daily_Consume_Energy_4more|Use_Gold_Coin_Buy_Energy_Count_1less|Ad_Buy_Energy_Count_1,3|4,1,1,-1,-1,1:1,Free Health Pack,21:10,,常驻限时礼包
+1091,,59,4,GiftDialog,20200101-20300101,-1,,passlevel_10more,0,1,-1,4,0,1:1,Novice Bundle V1,0:3700|10:1,3,组合新手礼包1
+1092,,60,4,GiftDialog,20200101-20300101,-1,,passlevel_10more,0,1,-1,4,0,1:1,Novice Bundle V2,0:8400|10:1|11:1,3,组合新手礼包2
+1093,,61,4,GiftDialog,20200101-20300101,-1,,passlevel_10more,0,1,-1,4,0,1:1,Novice Bundle V3,0:11500|21:20|10:1|11:1,3,组合新手礼包3
+1094,1091|1092|1093,62,4,GiftCombinationDialog,20200101-20300101,-1,,passlevel_10more,0,1,-1,4,0,1:1,Novice Bundle V4,0:6300|21:20|10:3|11:2,3,组合新手礼包4
+1011,,63,4,GiftDialog,20200101-20300101,-1,,passlevel_10more,0,-1,-1,4,0,1:1,Gold Bundle V11,0:6300|10:1,3,组合金币礼包v11
+1012,,64,4,GiftDialog,20200101-20300101,-1,,passlevel_10more,0,-1,-1,4,0,1:1,Gold Bundle V12,0:12100|10:1|11:1|12:1,3,组合金币礼包v12
+1013,,65,4,GiftDialog,20200101-20300101,-1,,passlevel_10more,0,-1,-1,4,0,1:1,Gold Bundle V13,0:21000|21:30|10:1|11:1,3,组合金币礼包v13
+1014,1011|1012|1013,66,4,GiftCombinationDialog,20200101-20300101,-1,,passlevel_10more,0,-1,-1,4,0,1:1,Gold Bundle V14,0:39400|21:30|10:3|11:2,3,组合金币礼包v14
+2011,,67,4,GiftDialog,20200101-20300101,-1,,passlevel_10more,0,-1,-1,4,0,1:1,Hammers Bundle V11,0:3700|10:2,3,组合锤子礼包v11
+2012,,68,4,GiftDialog,20200101-20300101,-1,,passlevel_10more,0,-1,-1,4,0,1:1,Hammers Bundle V12,0:7400|10:4|11:1,3,组合锤子礼包v12
+2013,,69,4,GiftDialog,20200101-20300101,-1,,passlevel_10more,0,-1,-1,4,0,1:1,Hammers Bundle V13,0:14700|10:5|11:1|21:20,3,组合锤子礼包v13
+2014,2011|2012|2013,70,4,GiftCombinationDialog,20200101-20300101,-1,,passlevel_10more,0,-1,-1,4,0,1:1,Hammers Bundle V14,0:25800|10:11|11:2|21:20,3,组合锤子礼包v14
+3011,,71,4,GiftDialog,20200101-20300101,-1,,passlevel_10more,0,-1,-1,4,0,1:1,Drag Bundle V11,0:3700|11:3,3,组合拖拽礼包v11
+3012,,72,4,GiftDialog,20200101-20300101,-1,,passlevel_10more,0,-1,-1,4,0,1:1,Drag Bundle V12,0:7350|11:6|10:1,3,组合拖拽礼包v12
+3013,,73,4,GiftDialog,20200101-20300101,-1,,passlevel_10more,0,-1,-1,4,0,1:1,Drag Bundle V13,0:11500|11:8|10:1|21:20,3,组合拖拽礼包v13
+3014,3011|3012|3013,74,4,GiftCombinationDialog,20200101-20300101,-1,,passlevel_10more,0,-1,-1,4,0,1:1,Drag Bundle V14,0:22100|11:17|10:2|21:20,3,组合拖拽礼包v14
+4011,,75,4,GiftDialog,20200101-20300101,-1,,passlevel_10more,0,-1,-1,4,0,1:1,Refresh Bundle V11,0:2700|12:2,3,组合刷新礼包V11
+4012,,76,4,GiftDialog,20200101-20300101,-1,,passlevel_10more,0,-1,-1,4,0,1:1,Refresh Bundle V12,0:7350|12:3|10:1,3,组合刷新礼包V12
+4013,,77,4,GiftDialog,20200101-20300101,-1,,passlevel_10more,0,-1,-1,4,0,1:1,Refresh Bundle V13,0:14200|12:4|10:1|21:20,3,组合刷新礼包V13
+4014,4011|4012|4013,78,4,GiftCombinationDialog,20200101-20300101,-1,,passlevel_10more,0,-1,-1,4,0,1:1,Refresh Bundle V14,0:24200|12:9|10:2|21:20,3,组合刷新礼包V14
+1021,,79,4,GiftDialog,20200101-20300101,-1,,passlevel_10more,0,-1,-1,4,0,1:1,Gold Bundle V21,0:10500|10:1|11:1,3,组合金币礼包v21
+1022,,80,4,GiftDialog,20200101-20300101,-1,,passlevel_10more,0,-1,-1,4,0,1:1,Gold Bundle V22,0:22100|10:2|11:2,3,组合金币礼包v22
+1023,,81,4,GiftDialog,20200101-20300101,-1,,passlevel_10more,0,-1,-1,4,0,1:1,Gold Bundle V23,0:33100|21:30|10:2|11:2,3,组合金币礼包v23
+1024,1021|1022|1023,82,4,GiftCombinationDialog,20200101-20300101,-1,,passlevel_10more,0,-1,-1,4,0,1:1,Gold Bundle V24,0:65700|21:30|10:5|11:5,3,组合金币礼包v24
+2021,,83,4,GiftDialog,20200101-20300101,-1,,passlevel_10more,0,-1,-1,4,0,1:1,Hammers Bundle V21,0:3700|10:4|11:2,3,组合锤子礼包v21
+2022,,84,4,GiftDialog,20200101-20300101,-1,,passlevel_10more,0,-1,-1,4,0,1:1,Hammers Bundle V22,0:7350|10:7|11:3|21:20,3,组合锤子礼包v22
+2023,,85,4,GiftDialog,20200101-20300101,-1,,passlevel_10more,0,-1,-1,4,0,1:1,Hammers Bundle V23,0:14700|10:10|11:3|21:30,3,组合锤子礼包v23
+2024,2021|2022|2023,86,4,GiftCombinationDialog,20200101-20300101,-1,,passlevel_10more,0,-1,-1,4,0,1:1,Hammers Bundle V24,0:25800|10:21|11:8|21:50,3,组合锤子礼包v24
+3021,,87,4,GiftDialog,20200101-20300101,-1,,passlevel_10more,0,-1,-1,4,0,1:1,Drag Bundle V21,0:3700|11:5|10:2,3,组合拖拽礼包v21
+3022,,88,4,GiftDialog,20200101-20300101,-1,,passlevel_10more,0,-1,-1,4,0,1:1,Drag Bundle V22,0:7350|11:10|10:2|21:20,3,组合拖拽礼包v22
+3023,,89,4,GiftDialog,20200101-20300101,-1,,passlevel_10more,0,-1,-1,4,0,1:1,Drag Bundle V23,0:14700|11:12|10:3|21:30,3,组合拖拽礼包v23
+3024,3021|3022|3023,90,4,GiftCombinationDialog,20200101-20300101,-1,,passlevel_10more,0,-1,-1,4,0,1:1,Drag Bundle V24,0:25800|11:27|10:7|21:50,3,组合拖拽礼包v24
+4021,,91,4,GiftDialog,20200101-20300101,-1,,passlevel_10more,0,-1,-1,4,0,1:1,Refresh Bundle V21,0:5250|12:3|10:1,3,组合刷新礼包V21
+4022,,92,4,GiftDialog,20200101-20300101,-1,,passlevel_10more,0,-1,-1,4,0,1:1,Refresh Bundle V22,0:8950|12:6|10:1|21:20,3,组合刷新礼包V22
+4023,,93,4,GiftDialog,20200101-20300101,-1,,passlevel_10more,0,-1,-1,4,0,1:1,Refresh Bundle V23,0:14700|12:9|10:1|21:30,3,组合刷新礼包V23
+4024,4021|4022|4023,94,4,GiftCombinationDialog,20200101-20300101,-1,,passlevel_10more,0,-1,-1,4,0,1:1,Refresh Bundle V24,0:28900|12:18|10:3|21:50,3,组合刷新礼包V24
+1031,,95,4,GiftDialog,20200101-20300101,-1,,passlevel_10more,0,-1,-1,4,0,1:1,Gold Bundle V31,0:14700|10:1|11:2,3,组合金币礼包v31
+1032,,96,4,GiftDialog,20200101-20300101,-1,,passlevel_10more,0,-1,-1,4,0,1:1,Gold Bundle V32,0:25800|21:20|10:3|11:2,3,组合金币礼包v32
+1033,,97,4,GiftDialog,20200101-20300101,-1,,passlevel_10more,0,-1,-1,4,0,1:1,Gold Bundle V33,0:36800|21:40|10:4|11:4,3,组合金币礼包v33
+1034,1031|1032|1033,98,4,GiftCombinationDialog,20200101-20300101,-1,,passlevel_10more,0,-1,-1,4,0,1:1,Gold Bundle V34,0:77200|21:60|10:8|11:8,3,组合金币礼包v34
+2031,,99,4,GiftDialog,20200101-20300101,-1,,passlevel_10more,0,-1,-1,4,0,1:1,Hammers Bundle V31,0:7350|10:6|11:2,3,组合锤子礼包v31
+2032,,100,4,GiftDialog,20200101-20300101,-1,,passlevel_10more,0,-1,-1,4,0,1:1,Hammers Bundle V32,0:12600|10:9|11:3|21:20,3,组合锤子礼包v32
+2033,,101,4,GiftDialog,20200101-20300101,-1,,passlevel_10more,0,-1,-1,4,0,1:1,Hammers Bundle V33,0:22100|10:12|11:5|21:40,3,组合锤子礼包v33
+2034,2031|2032|2033,102,4,GiftCombinationDialog,20200101-20300101,-1,,passlevel_10more,0,-1,-1,4,0,1:1,Hammers Bundle V34,0:42000|10:27|11:10|21:60,3,组合锤子礼包v34
+3031,,103,4,GiftDialog,20200101-20300101,-1,,passlevel_10more,0,-1,-1,4,0,1:1,Drag Bundle V31,0:7350|11:6|10:2,3,组合拖拽礼包v31
+3032,,104,4,GiftDialog,20200101-20300101,-1,,passlevel_10more,0,-1,-1,4,0,1:1,Drag Bundle V32,0:12600|11:10|10:3|21:30,3,组合拖拽礼包v32
+3033,,105,4,GiftDialog,20200101-20300101,-1,,passlevel_10more,0,-1,-1,4,0,1:1,Drag Bundle V33,0:22100|11:15|10:4|21:40,3,组合拖拽礼包v33
+3034,3031|3032|3033,106,4,GiftCombinationDialog,20200101-20300101,-1,,passlevel_10more,0,-1,-1,4,0,1:1,Drag Bundle V34,0:42000|11:31|10:9|21:70,3,组合拖拽礼包v34
+4031,,107,4,GiftDialog,20200101-20300101,-1,,passlevel_10more,0,-1,-1,4,0,1:1,Refresh Bundle V31,0:7900|12:5|10:1,3,组合刷新礼包V31
+4032,,108,4,GiftDialog,20200101-20300101,-1,,passlevel_10more,0,-1,-1,4,0,1:1,Refresh Bundle V32,0:13200|12:10|10:1|21:20,3,组合刷新礼包V32
+4033,,109,4,GiftDialog,20200101-20300101,-1,,passlevel_10more,0,-1,-1,4,0,1:1,Refresh Bundle V33,0:23700|12:11|10:1|21:40,3,组合刷新礼包V33
+4034,4031|4032|4033,110,4,GiftCombinationDialog,20200101-20300101,-1,,passlevel_10more,0,-1,-1,4,0,1:1,Refresh Bundle V34,0:44700|12:26|10:3|21:60,3,组合刷新礼包V34
+9001,,111,5,GiftDialog,20200101-20300101,-1,,passlevel_10more,0,-1,-1,2,0,0:120,Challenge Bundle 1,0:3700|10:1,3,组合循环礼包1
+9002,,112,5,GiftDialog,20200101-20300101,-1,,passlevel_10more,0,-1,-1,2,0,0:120,Challenge Bundle 2,0:6300|10:1,3,组合循环礼包2
+9003,,113,5,GiftDialog,20200101-20300101,-1,,passlevel_10more,0,-1,-1,2,0,0:120,Challenge Bundle 3,0:12100|10:1|11:1|12:1,3,组合循环礼包3
+9004,,114,5,GiftDialog,20200101-20300101,-1,,passlevel_10more,0,-1,-1,2,0,0:120,Challenge Bundle 4,0:13700|10:1|11:1|12:1,3,组合循环礼包4
+9005,,115,5,GiftDialog,20200101-20300101,-1,,passlevel_10more,0,-1,-1,2,0,0:120,Challenge Bundle 5,0:16800|10:2|11:2|12:2,3,组合循环礼包5
+9006,,116,5,GiftDialog,20200101-20300101,-1,,passlevel_10more,0,-1,-1,2,0,0:120,Challenge Bundle 6,0:28400|10:2|11:2|21:20,3,组合循环礼包6
+9007,,117,5,GiftDialog,20200101-20300101,-1,,passlevel_10more,0,-1,-1,2,0,0:120,Challenge Bundle 7,0:43100|10:3|11:3|21:30,3,组合循环礼包7
+9008,,118,5,GiftDialog,20200101-20300101,-1,,passlevel_10more,0,-1,-1,2,0,0:120,Challenge Bundle 8,0:52500|10:5|11:5|21:60,3,组合循环礼包8
+9101,,119,3,GiftReviveDialog,20200101-20300101,-1,,,5,-1,-1,-1,0,1:0,Never Give Up 1,0:7350|11:1|21:30,3,永不放弃礼包1
+9102,,120,3,GiftReviveDialog,20200101-20300101,-1,,,5,-1,-1,-1,0,1:0,Never Give Up 2,0:18400|11:2|21:60,3,永不放弃礼包2
+9103,,121,3,GiftReviveDialog,20200101-20300101,-1,,,5,-1,-1,-1,0,1:0,Never Give Up 3,0:33100|11:3|21:90,3,永不放弃礼包3

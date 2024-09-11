@@ -1,0 +1,12 @@
+MTB_starleague_settlement_ani.png
+size:1024,512
+filter:Linear,Linear
+bling
+bounds:466,65,496,413
+meteor-1
+bounds:2,2,17,103
+offsets:1,5,19,111
+rotate:90
+smoke
+bounds:2,21,462,457
+offsets:15,20,487,489

@@ -1,0 +1,9 @@
+BoostShowLevel,10,int,页面出现等级
+BoostIsOpen,1,int,是否开启助推器，1=开启，0=关闭
+ShoppingCarCapacity,2,int,购物车一次收集多少对商品
+AddSeconds,30,int,秒表每次增加时间数（秒）
+StarAddMultiple,2,int,星星翻倍数
+ShoppingCarUnlockLevel,10,int,购物车解锁等级
+StarDoubleUnlockLevel,12,int,星星翻倍解锁等级
+ExtraTimeUnlockLevel,14,int,增加时间解锁等级
+MinGameTIme,60,int,最小游戏时间（秒）

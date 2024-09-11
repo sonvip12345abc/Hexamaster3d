@@ -1,0 +1,16 @@
+GM3D_WealthGift_ani.png
+size:1024,512
+filter:Linear,Linear
+box
+bounds:299,264,237,216
+cover
+bounds:2,2,256,181
+glow
+bounds:538,333,145,147
+offsets:54,60,256,256
+light
+bounds:2,185,295,295
+offsets:148,147,591,589
+star
+bounds:685,355,126,125
+offsets:1,1,128,127

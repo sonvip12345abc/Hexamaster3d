@@ -1,0 +1,2 @@
+BlindBoxCount,3,int,盲盒默认数量
+BlindBoxPopCount,3,int,盲盒默认生成物品数量

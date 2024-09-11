@@ -1,0 +1,10 @@
+#金猪配置,,,,
+#id购买次数,通关增加金币,最少购买金币,最多购买金币,商店id
+%id,add_gold,min_buy_gold,max_buy_gold,store_id
+$[id:unique][id:type:int],[add_gold:type:int],[min_buy_gold:type:int],[max_buy_gold:type:int],[store_id:type:int]
+0,400,2400,5000,26
+1,400,2400,5000,26
+2,400,2400,5000,26
+3,400,2400,5000,26
+4,400,2400,5000,26
+5,400,2400,5000,26

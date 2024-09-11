@@ -1,0 +1,5 @@
+UnlockLevel,1,int,解锁关卡
+FirstGenerateLevel,5,int,首次生成关卡
+GenerateDeltaLevels,3|4|5,List<int>,间隔关卡区间
+StampProductGrowthPercent,0.05,float,邮票物品生成增长概率
+model,888888,int,邮票模型id

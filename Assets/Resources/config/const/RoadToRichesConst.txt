@@ -1,0 +1,5 @@
+IsRoadToRichesOpen,TRUE,bool,出现开关(可强制关闭活动)
+RewardInterval,3,int,每走多少步可以领奖
+MaxLevel,999,int,最大等级
+ActivitySort,1,List<int>,活动皮肤顺序
+LevelPrepareLimit,14,int,预告关卡
